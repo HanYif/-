@@ -11,7 +11,7 @@ function handleDuplicate(arrA, arrB) {
     if (arrA.length <=0 || arrB.length <= 0) {
         return [];
     }
-// 
+
     var result = [];
     for (let i = 0, lengthi = arrA.length; i < lengthi; i++) {
         let current = arrA[i];
